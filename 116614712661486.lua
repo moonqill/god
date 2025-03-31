@@ -117,7 +117,7 @@ local function discord_notify(rewards)
     
     local payload = {
         username = tostring(_G.avatarName),
-        avatar_url = tostring(_G.avatar_url),
+        avatar_url = tostring(_G.avatarUrl),
         embeds = {embedData}
     }
     
