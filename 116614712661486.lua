@@ -136,7 +136,7 @@ local function discord_notify(rewards)
 end
 
 task.spawn(function()
-    while true do task.wait(600)
+    while true do task.wait(5)
         local success, err = pcall(function()
             local rewards = item_received()
             if #rewards > 0 then
